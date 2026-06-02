@@ -2,7 +2,7 @@ languageCode = "en"
 languageName = "English"
 weight = 1
 
-title = "Blowfish"
+title = "Franciszek Fraszczyk"
 
 [params]
   displayName = "EN"
@@ -14,9 +14,9 @@ title = "Blowfish"
   dateFormat = "2 January 2006"
 
 [params.author]
-  name = "Your name here"
-  image = "img/blowfish_logo.png"
-  headline = "I'm only human"
+  name = "Franciszek Fraszczyk"
+  image = "me.png"
+  headline = "MEng Mechatronics Engineer"
   bio = "A little bit about you"
   # links = [
   #   { email = "mailto:hello@your_domain.com" },
