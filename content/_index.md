@@ -1,6 +1,5 @@
 ---
 layout: "profile"
-title: "About Me"
 title: "Franciszek Fraszczyk"
 description: "Welcome to my personal CV portfolio website."
 
