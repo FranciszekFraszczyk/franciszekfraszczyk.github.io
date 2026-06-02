@@ -15,7 +15,7 @@ title = "Franciszek Fraszczyk"
 
 [params.author]
   name = "Franciszek Fraszczyk"
-  image = "me.jpg"
+  image = "img/me.jpg"
   headline = "MEng Mechatronics Engineer"
   bio = "A little bit about you"
   # links = [
