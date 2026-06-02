@@ -9,7 +9,7 @@ title = "Franciszek Fraszczyk"
   isoCode = "en"
   rtl = false
   logo = "img/logo.png"
-  description = "My awesome website"
+  description = "Personal website of Franciszek Fraszczyk, Masters Engineer in Mechatronics, including his proejct work and module details"
   # copyright = "Copy, _right?_ :thinking_face:"
   dateFormat = "2 January 2006"
 
@@ -17,7 +17,7 @@ title = "Franciszek Fraszczyk"
   name = "Franciszek Fraszczyk"
   image = "img/me.jpg"
   headline = "MEng Mechatronics Engineer"
-  bio = "A little bit about you"
+  bio = "Masters graduate with honours degree in Mechatronics Engineering from Dublin City University"
   # links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
