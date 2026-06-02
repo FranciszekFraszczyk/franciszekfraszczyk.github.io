@@ -1,6 +1,6 @@
 [[main]]
-  name = "About Me"
-  pageRef = "/"
+  name = "CV"
+  pageRef = "/cv.pdf"
   weight = 10
 
 [[main]]
