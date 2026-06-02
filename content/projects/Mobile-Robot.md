@@ -8,7 +8,7 @@ showAuthor: false
 featured: true
 
 # This links a background preview image to the card on the grid
-thumbnail: "img/rover-thumbnail.jpg"
+thumbnail: "rover-thumbnail.jpg"
 ---
 
 ### Project Overview
