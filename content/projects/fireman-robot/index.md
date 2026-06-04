@@ -4,7 +4,7 @@ description: "A mechanical scaling platform engineered with a custom trapezoidal
 date: 2024-03-15
 showAuthor: false
 featured: true
-thumbnail: "featured.jpg"
+thumbnail: "fireman.PNG"
 ---
 
 ### Project Overview
