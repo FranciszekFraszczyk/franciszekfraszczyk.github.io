@@ -34,7 +34,7 @@ Developed as part of the EE303 Mobile Robotics module at Dublin City University,
 #### 1. Sensor Calibration & Smoothing Framework
 
 <div style="text-align: justify;">
-To limit signal bounce and prevent erratic over-steering from high-frequency analogue line tracking spikes, a low-pass software smoothing function was implemented. The sensor suite captures data streams in the range of `50-150` for light/white surfaces and `600-900` for dark/black boundaries:
+To limit signal bounce and prevent erratic over-steering from high-frequency analogue line tracking spikes, a low-pass software smoothing function was implemented. The sensor suite captures data streams in the range of <code>50-150</code> for light/white surfaces and <code>600-900</code> for dark/black boundaries:
 </div>
 
 * Reads values natively via five concurrent `analogRead()` mapping pipelines.
