@@ -71,11 +71,6 @@ Transporting an open 0.5L water beaker without spillage under the aggressive, ch
 
 #### 4. Electromechanical Latching & Control Circuit
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="electric_circuit.jpg" alt="Pneumatic Control Circuit Schematic" style="max-width: 100%; height: auto; border-radius: 4px;">
-  <p style="font-size: 0.9rem; font-style: italic; color: #666; margin-top: 8px;">Figure 3: Schematic of the hardwired electromechanical relay latching circuit for cyclic valve automation.</p>
-</div>
-
 <div style="text-align: justify;">
 To govern the automated cycling of the pneumatic system without the overhead of an electronic microcontroller, control logic was implemented purely through a hardwired electromechanical relay latching framework:
 </div>
