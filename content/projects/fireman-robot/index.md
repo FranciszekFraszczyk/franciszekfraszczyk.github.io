@@ -51,31 +51,49 @@ Autonomous operational safety, state changes, and peak stopping were governed en
 * **Absolute Apex Holding Logic:** A dedicated limit switch was positioned to trigger explicitly upon reaching the ladder's peak. Once this absolute upper threshold was contacted, the control circuit permanently locked the directional solenoid valve into a static hold sequence, safely stopping all vertical travel and securely suspending the chassis without overshooting.
 * 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="limitswitches.jpg" alt="Microswitch Array" style="max-width: 100%; height: auto; border-radius: 4px;">
+  <img src="limitswitch.jpg" alt="Microswitch Array" style="max-width: 100%; height: auto; border-radius: 4px;">
   <p style="font-size: 0.9rem; font-style: italic; color: #666; margin-top: 8px;">Figure 2: Custom microswitch integration and mounting configuration for automated mechanical routing feedback.</p>
 </div>
 
-#### 3. Self-Locking Payload Gripper Assembly
+
+#### 3. Dual-Element Spillage Damping System
 
 <div style="text-align: justify;">
-Retrieving the payload at the apex of the structure required a lightweight, structurally rigid mechanical interface capable of maintaining an unpowered grip:
-* **Rack-and-Pinion Mechanics:** A precision rack-and-pinion gear profile was designed to convert rotational servo inputs into linear sliding finger paths.
-* **Structural Box Finger Profile:** The sliding grab arms were manufactured using a high-contact box profile lined with high-friction dampening pads, allowing the mechanism to mechanically trap the payload and maintain absolute control without drawing excessive stall currents from the servo system.
+Transporting an open 0.5L water beaker without spillage under the aggressive, choppy acceleration profiles of a pneumatic system required a tuned shock-absorption system:
+* **Tuned Spring Array:** The beaker holder was isolated and suspended within a floating carriage using four independent extension springs to store and dissipate rapid kinetic inputs.
+* *Custom-Machined Dashpot:** To prevent continuous oscillations and eliminate structural resonance, a fluidic dashpot was calculated and machined. Using a fluid viscosity analysis loop, the dashpot piston head was cut to a diameter of 0.0242m with an internal clearance profile of 0.00103m, yielding a damping ratio of 0.69 to smoothly suppress fluid waves.
 </div>
 
-#### 4. FEA Structural Optimisation & Laser Fabrication
+<div style="text-align: center; margin: 20px 0;">
+  <img src="damper.jpg" alt="Damping System" style="max-width: 100%; height: auto; border-radius: 4px;">
+  <p style="font-size: 0.9rem; font-style: italic; color: #666; margin-top: 8px;">Figure 3: Custom damping system to prevent water spillage.</p>
+</div>
+
+#### 4. Electromechanical Latching & Control Circuit
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="electric_circuit.jpg" alt="Pneumatic Control Circuit Schematic" style="max-width: 100%; height: auto; border-radius: 4px;">
+  <p style="font-size: 0.9rem; font-style: italic; color: #666; margin-top: 8px;">Figure 3: Schematic of the hardwired electromechanical relay latching circuit for cyclic valve automation.</p>
+</div>
 
 <div style="text-align: justify;">
-Weight minimisation and structural stress management were handled concurrently through exhaustive computational engineering loops prior to physical manufacture:
-* **Finite Element Analysis (FEA):** Crucial high-stress nodes—specifically the main axle bearing mounts and the bottom damper linkage joints—were analysed under maximum simulated stall torques within Ansys. Material was selectively filleted and pocketed based on von Mises stress plots to eliminate points of failure.
-* **Precision Acrylic Fabrication:** The finalised chassis maps, linkages, and stabilizer components were exported as vector files for high-precision laser profiling on 5mm acrylic sheets, ensuring dimensional tolerances within 0.1mm to eliminate structural play.
+To govern the automated cycling of the pneumatic system without the overhead of an electronic microcontroller, control logic was implemented purely through a hardwired electromechanical relay latching framework:
+</div>
+
+* **Hardware-Defined Memory Latch:** The core switching sequence utilizes a classic relay interlocking loop. When the linkage reaches full retraction, it trips the lower limit microswitch, energising the relay coil and latching its auxiliary contacts closed to maintain a stable current path. 
+* **Automated Solenoid Toggling:** This hardware latch holds the 5/2-way single directional valve's solenoid core in an un-interrupted active state, pumping air to the primary chamber to extend the piston. Hitting the opposing linkage microswitch breaks the holding current rail, instantly dropping out the relay coil to de-energise the spool and reverse air routing.
+* **Peak Safety Isolation:** To achieve the final apex stop, a master limit switch was integrated directly into the primary supply rail. The moment the climbing platform impacts this top boundary, the switch forcefully cuts all control voltage to the circuit, instantly dropping out the relay loop and locking the lines into an unpowered structural hold.
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="electric_circuit.jpg" alt="Electric Circuit" style="max-width: 100%; height: auto; border-radius: 4px;">
+  <p style="font-size: 0.9rem; font-style: italic; color: #666; margin-top: 8px;">Figure 4: Electric Circuit Schematic.</p>
 </div>
 
 ---
 
 ### System Demonstrations
 
-To see the climbing robot executing its vertical navigation routines, watch the video demonstrations below:
+To see the fabraction process and final climb, watch the video demonstration below:
 
 {{< youtube id="x4oyXfnyspo" >}}
 
