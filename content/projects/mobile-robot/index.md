@@ -7,6 +7,7 @@ featured: true
 thumbnail: "featured.jpg"
 ---
 <div style="text-align: justify;">
+---
 ### Project Overview
 Developed as part of the EE303 Mobile Robotics module at Dublin City University, this project involved the design, manufacturing, and firmware optimisation of an autonomous mobile robot ("Mobot"). The system was engineered to autonomously navigate a physical track, cross marked intersection checkpoints, and perform precision parking operations against track boundary structures. When the robot reached its destination, the car's position would update on the server and the next destination point would be sent to the robot.
 
