@@ -10,7 +10,7 @@ avatar: "me.jpg"
 bio: "Software Developer | Engineering Student | Lifelong Learner"
 ---
 
-# Hello, I'm Franciszek Fraszczyk.
+## Hello, I'm Franciszek Fraszczyk.
 ### Mechatronics Engineer | PLC Automation, Edge AI, & Embedded Systems
 
 I am a top ranking Mechatronics Engineering graduate (BEng & MEng) from Dublin City University with a proven track record of bridging the gap between hardware execution and intelligent software design. My experience spans from programming and commissioning automated systems on live, safety-critical industrial plants with GEA Group, to deploying advanced Machine Learning models directly onto resource-constrained microcontroller hardware. 
