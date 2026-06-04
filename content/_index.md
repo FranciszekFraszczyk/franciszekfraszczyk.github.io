@@ -10,8 +10,11 @@ avatar: "me.jpg"
 bio: "Software Developer | Engineering Student | Lifelong Learner"
 ---
 
-### Hello, and welcome!
+# Hello, I'm Franciszek Fraszczyk.
+### Mechatronics Engineer | PLC Automation, Edge AI, & Embedded Systems
 
-This is where you write your quick description. Talk about your background, what you are passionate about, and what kind of roles you are looking for. 
+I am a top ranking Mechatronics Engineering graduate (BEng & MEng) from Dublin City University with a proven track record of bridging the gap between hardware execution and intelligent software design. My experience spans from programming and commissioning automated systems on live, safety-critical industrial plants with GEA Group, to deploying advanced Machine Learning models directly onto resource-constrained microcontroller hardware. 
 
-You can use sta ndard text, **bold text**, or bullet points to highlight your core skills here!
+Whether collaborating in multidisciplinary teams, integrating complex mechanical and electrical systems, or optimising Edge AI models to automate live industrial plants, I design robust, operational solutions for safety-critical environments.
+
+[Explore My Work](#projects) · [View My CV](/cv.pdf) · [Get In Touch](#contact)
