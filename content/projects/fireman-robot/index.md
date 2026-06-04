@@ -22,7 +22,6 @@ Developed as part of the MM310 Product Design module at Dublin City University, 
 * **Kinematic Linkage System:** Optimised Four-Bar Trapezoidal Linkage Configuration
 * **Sensor Infrastructure:** Rolling-Lever Microswitches housed in custom adjustable enclosures
 * **Fluid Damping Subsystem:** Quad Extension Spring Array paired with a custom-machined Dashpot 
-* **Structural Substrate:** 5mm Aluminium Sheet
 * **Design & Simulation Suite:** SolidWorks
 
 </div>
@@ -34,7 +33,7 @@ Developed as part of the MM310 Product Design module at Dublin City University, 
 #### 1. Trapezoidal Four-Bar Climbing Linkage
 
 <div style="text-align: justify;">
-To scale the ladder under strict spatial constraints, the robot required a mechanism capable of turning local cylinder extensions into vertical steps. Because the physical ladder rungs were pitched 52mm apart and the pneumatic piston’s absolute stroke length was limited to 50mm, a direct linear lift was impossible. To resolve this 2mm shortfall, a custom four-bar trapezoidal linkage system was designed
+To scale the ladder under strict spatial constraints, the robot required a mechanism capable of turning local cylinder extensions into vertical steps. Because the physical ladder rungs were pitched <code>52mm</code> apart and the pneumatic piston’s absolute stroke length was limited to <code>50mm</code>, a direct linear lift was impossible. To resolve this 2mm shortfall, a custom four-bar trapezoidal linkage system was designed.
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
@@ -45,9 +44,15 @@ To scale the ladder under strict spatial constraints, the robot required a mecha
 #### 2. Electro-Mechanical Rung Tracking Logic
 
 <div style="text-align: justify;">
-Autonomous alignment and milestone targeting were governed entirely by physical limit monitoring, removing the need for error-prone optical tracking in harsh physical environments:
-* **Microswitch Array Configuration:** Rolling-lever microswitches were integrated directly into custom-designed structural housings mounted on the upper wheel brackets.
-* **Absolute Feedback Loops:** As the climber scales the column, the physical rungs mechanically actuate the switch arms. The resulting state transitions provide clean, absolute feedback to track vertical progress, index specific step layers, and safely halt upward drive operations once the destination threshold is reached.
+Autonomous operational safety, state changes, and peak stopping were governed entirely by limit switch monitoring, avoiding complex optical tracking sensors:
+</div>
+
+* **Linkage State Switching:** Miniature rolling-lever microswitches were integrated directly into custom-designed structural housings mounted near the linkage brackets. Rather than counting rungs or processing numerical variables, these switches tracked physical linkage extension limits to actively alternate the system between the extension/retraction pneumatic states.
+* **Absolute Apex Holding Logic:** A dedicated limit switch was positioned to trigger explicitly upon reaching the ladder's peak. Once this absolute upper threshold was contacted, the control circuit permanently locked the directional solenoid valve into a static hold sequence, safely stopping all vertical travel and securely suspending the chassis without overshooting.
+* 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="limitswitches.jpg" alt="Microswitch Array" style="max-width: 100%; height: auto; border-radius: 4px;">
+  <p style="font-size: 0.9rem; font-style: italic; color: #666; margin-top: 8px;">Figure 2: Custom microswitch integration and mounting configuration for automated mechanical routing feedback.</p>
 </div>
 
 #### 3. Self-Locking Payload Gripper Assembly
