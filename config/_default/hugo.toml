@@ -36,3 +36,4 @@ enableEmoji = true
 # This tells Blowfish to link everything to your author profile
 [params]
   name = "Franciszek Fraszczyk"
+  googleSiteVerification = "w_ZnwXPwfj5yxmMMz72S2OmscmEJnzoG-jcmpfeWLHk" # <-- Paste your exact token string here
