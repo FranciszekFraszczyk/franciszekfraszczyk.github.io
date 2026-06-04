@@ -69,4 +69,4 @@ Demonstrates the real-time proximity calculations in action, showing the robot d
 #### 3. Full Autonomous Run
 The complete, end-to-end operational trial showing successful intersection handling, centralised server communication, and dynamic route execution.
 
-{{< youtube id="YOUR_FULL_RUN_VIDEO_ID" >}}
+{{< youtube id="fSrWPY9GI_4" >}}
