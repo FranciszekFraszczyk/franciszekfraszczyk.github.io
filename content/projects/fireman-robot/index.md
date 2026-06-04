@@ -1,7 +1,7 @@
 ---
 title: "Autonomous Fireman Climbing Robot"
 description: "A mechanical scaling platform engineered with a custom trapezoidal climbing linkage, active microswitch limit tracking, and a self-locking rack-and-pinion payload gripper."
-date: 2024-03-15
+date: 2024-02-19
 showAuthor: false
 featured: true
 thumbnail: "fireman.PNG"
@@ -68,12 +68,6 @@ Weight minimisation and structural stress management were handled concurrently t
 
 To see the climbing robot executing its vertical navigation routines, watch the video demonstrations below:
 
-#### 1. Linkage Kinematics & Climbing Test
-Shows the initial bench testing of the trapezoidal linkage cycle, validating the climbing clearance and mechanical wheel bracket alignments.
+{{< youtube id="x4oyXfnyspo" >}}
 
-{{< youtube id="dQw4w9WgXcQ" >}}
 
-#### 2. Gripper Deployment & Payload Catch
-Demonstrates the linear rack-and-pinion gripper engaging, securing, and maintaining full physical control over the target payload box.
-
-{{< youtube id="dQw4w9WgXcQ" >}}
