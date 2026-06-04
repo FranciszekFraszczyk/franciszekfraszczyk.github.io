@@ -10,19 +10,20 @@ thumbnail: "featured.jpg"
 ### Project Overview
 
 <div style="text-align: justify;">
-Developed as part of the MM310 Product Design module at Dublin City University, this project involved the complete design specification, kinematic synthesis, and structural fabrication of a specialised "Fireman Robot" designed to ascend a vertical ladder structure. The system was engineered to mechanically climb a 50mm x 50mm central upright box section, actively register rungs using integrated electromechanical limit monitoring, and securely retrieve an external payload at the apex before safely descending.
+Developed as part of the MM310 Product Design module at Dublin City University, this project involved the complete design specification, kinematic simulation, and mechanical fabrication of a specialised "Fireman Robot" designed to ascend a vertical ladder structure. The system was engineered to mechanically climb a 50mm x 50mm central upright box section, actively register rungs using electromechanical limit switches, and securely deliver a jug of water to the apex.
 </div>
 
 ### Technical Engineering Stack
 
 <div style="text-align: justify;">
 
-* **Structural Material:** 5mm Poly(methyl methacrylate) / Acrylic Sheet (Precision Laser Cut)
+* **Actuation Suite:** High-Pressure Pneumatic Double-Acting Cylinder (50mm Stroke Extension) 
+* **Control Valve Infrastructure:** 5/2-Way Single Solenoid Directional Control Valve 
 * **Kinematic Linkage System:** Optimised Four-Bar Trapezoidal Linkage Configuration
-* **Actuation Suite:** High-Torque DC Geared Drive Motors paired with a Micro Servo Core
-* **Sensor Infrastructure:** Miniature Rolling-Lever Microswitches (for absolute physical edge and rung detection)
-* **Payload Mechanism:** Custom Rack-and-Pinion Sliding Gripper Assembly
-* **Design & Analysis Software:** SolidWorks (Parametric 3D Modelling), Ansys (Finite Element Analysis for structural stress boundaries)
+* **Sensor Infrastructure:** Rolling-Lever Microswitches housed in custom adjustable enclosures
+* **Fluid Damping Subsystem:** Quad Extension Spring Array paired with a custom-machined Dashpot 
+* **Structural Substrate:** 5mm Aluminium Sheet
+* **Design & Simulation Suite:** SolidWorks
 
 </div>
 
@@ -33,9 +34,12 @@ Developed as part of the MM310 Product Design module at Dublin City University, 
 #### 1. Trapezoidal Four-Bar Climbing Linkage
 
 <div style="text-align: justify;">
-To achieve stable, vertical climbing vectors along a standard hollow box column, a critical design choice was made to synthesise a custom trapezoidal linkage mechanism. Compared to alternative triangular or continuous track configurations evaluated in the initial engineering matrix, this four-bar geometric layout provided superior mechanical advantage:
-* **Structural Load Pathing:** The trapezoidal layout spreads operational forces evenly across the main chassis plates, eliminating horizontal moments that could cause binding against the central upright track.
-* **Passive Grip Integration:** As the primary drive links pivot, the geometry converts a portion of the vertical motor torque into direct gripping force, clamping the support brackets tighter against the column during maximum vertical extension phases.
+To scale the ladder under strict spatial constraints, the robot required a mechanism capable of turning local cylinder extensions into vertical steps. Because the physical ladder rungs were pitched 52mm apart and the pneumatic piston’s absolute stroke length was limited to 50mm, a direct linear lift was impossible. To resolve this 2mm shortfall, a custom four-bar trapezoidal linkage system was designed
+</div>
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="linkage-system.jpg" alt="Trapezoidal Linkage" style="max-width: 100%; height: auto; border-radius: 4px;">
+  <p style="font-size: 0.9rem; font-style: italic; color: #666; margin-top: 8px;">Figure 1.1: SolidWorks CAD simulation of the four-bar trapezoidal linkage synthesis.</p>
 </div>
 
 #### 2. Electro-Mechanical Rung Tracking Logic
