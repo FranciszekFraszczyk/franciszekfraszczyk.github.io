@@ -15,14 +15,14 @@ description: "Year-by-year academic breakdown and performance metrics at Dublin 
 
 | Module Name | Module Code | Grade |
 | :--- | :--- | :---: |
-| MEng Project | EEG1016 | 83% |
-| Industrial Robotics | EEN1039 | 97% |
-| Mechatronic System Simulation | EEN1047 | 80% |
-| Computer Vision | EEN1085 | 88% |
-| Advanced FEA / Design & Analysis | MEC1062 | 80% |
-| Image Processing & Deep Learning | EEN1001 | 98% |
-| Control Systems Synthesis | EEN1048 | 90% |
-| Energy Systems & Sustainability | MEC1059 | 66% |
+| 5th Year (MEng) Project | EEG1016 | 83% |
+| Image Processing & Analysis | EEN1039 | 97% |
+| Control Systems Analysis | EEN1047 | 80% |
+| Data Analysis and Machine Learning | EEN1085 | 88% |
+| Manufacturing Automation | MEC1062 | 80% |
+| Computer Vision | EEN1001 | 98% |
+| Mechatronic System Simulation & Control | EEN1048 | 90% |
+| Advanced Sustainable Energy Systems | MEC1059 | 66% |
 
 ---
 
@@ -31,12 +31,12 @@ description: "Year-by-year academic breakdown and performance metrics at Dublin 
 
 | Module Name | Module Code | Grade |
 | :--- | :--- | :---: |
-| Industrial Automation | EEN1053 | 89% |
-| Wireless Communications | EEN1068 | 76% |
-| Manufacturing Automation | MEC1031 | 84% |
-| Advanced Mechanical Engineering | MEC1070 | 78% |
-| Advanced Dynamic Systems & Control | MEC1072 | 70% |
-| BEng Capstone Project | EEG1015 | 100% |
+| Introduction to Engineering Management | EEN1053 | 89% |
+| Entrepreneurship for Engineers | EEN1068 | 76% |
+| Mechanical Engineering System Simulation | MEC1031 | 84% |
+| Robotics | MEC1070 | 78% |
+| Project Planning & Research | MEC1072 | 70% |
+| Intra Placement II | EEG1015 | 100% |
 
 ---
 
@@ -45,15 +45,15 @@ description: "Year-by-year academic breakdown and performance metrics at Dublin 
 
 | Module Name | Module Code | Grade |
 | :--- | :--- | :---: |
-| Analogue Circuits and Design | EE319 | 88% |
-| Mechanics of Machines 2 | MM306 | 89% |
-| Product Design | MM307 | 80% |
-| Fluid Mechanics | MM309 | 88% |
-| Data Analytics & Statistical Control | MM382 | 93% |
-| Mechatronics System Design Project | MM310 | 78% |
+| Electromechanical Systems | EE319 | 88% |
+| Mechanics of Machines | MM306 | 89% |
+| Measurement & Signal Processing | MM307 | 80% |
+| Project Quality Management | MM309 | 88% |
+| Data Analytics for Engineers | MM382 | 93% |
+| Product Design | MM310 | 78% |
 | Mobile Robotics | EE303 | 93% |
-| Electromechanical Automation | EE322 | 93% |
-| Intra-Placement Technical Project | EEG1015 | 100% |
+| Analogue Circuits & Design | EE322 | 93% |
+| Intra Placement I | EEG1015 | 100% |
 
 ---
 
@@ -62,18 +62,18 @@ description: "Year-by-year academic breakdown and performance metrics at Dublin 
 
 | Module Name | Module Code | Grade |
 | :--- | :--- | :---: |
+| Thermodynamics:Energy | MM204 | 65% |
+| Mechanics of Materials I | MM211 | 62% |
+| Design & Solid Modelling | MM225 | 78% |
+| Circuits Analysis Techniques | EE203 | 70% |
+| Digital & Analogue Electronics I | EE223 | 89% |
+| Engineering Mechanics: Dynamics | MM203 | 79% |
+| Introduction to Systems, Signals & Control | EE207 | 81% |
+| C/C++ Programming for Engineers | EE219 | 88% |
+| Embedded Systems | EE202 | 82% |
+| Pneumatics & Hydraulics | MM232 | 78% |
 | Engineering Mathematics III | EM201 | 83% |
-| Design & CAD | MM204 | 65% |
-| Mechanics of Machines 1 | MM211 | 62% |
-| Manufacturing Processes 1 | MM225 | 78% |
-| Linear Systems and Signal Models | EE203 | 70% |
-| Circuits and Systems | EE223 | 89% |
 | Engineering Mathematics IV | EM202 | 77% |
-| Materials Engineering 1 | MM203 | 79% |
-| Embedded Systems / Systems Software | EE207 | 81% |
-| Object-Oriented Programming (OOP) | EE219 | 88% |
-| Digital & Analogue Electronics 1 | EE202 | 82% |
-| Mechanical Engineering Project 2 | MM232 | 78% |
 
 ---
 
@@ -82,13 +82,13 @@ description: "Year-by-year academic breakdown and performance metrics at Dublin 
 
 | Module Name | Module Code | Grade |
 | :--- | :--- | :---: |
-| Software Development for Engineers | EM113 | 82% |
-| Basic Sciences for Engineers | EM115 | 86% |
-| Engineering Graphics & CAD | EM121 | 94% |
-| Unknown | FSH104 | 91% |
-| Project and Professional Academy | EM105 | 80% |
-| Engineering Mathematics I & II | EM106 | 79% |
-| Electrical & Electronic Engineering 1 | EM108 | 77% |
-| Engineering Mechanics 1 | EM112 | 74% |
-| Material Technology for Engineers | EM114 | 82% |
-| Mechanical Engineering Project 1 | EM122 | 74% |
+| Introduction to Electronics | EM113 | 82% |
+| Materials Engineering | EM115 | 86% |
+| Basic Sciences for Engineers (Physical, Chemical, Life) | FSH104 | 91% |
+| Fundamentals of Professional Development | EM105 | 80% |
+| Project & Technical Drawing | EM106 | 79% |
+| Programming & Software Development for Engineers | EM108 | 77% |
+| Engineering Mechanics-Statics | EM112 | 74% |
+| Numerical Problem Solving for Engineers | EM114 | 82% |
+| Engineering Mathematics I | EM121 | 94% |
+| Engineering Mathematics II | EM122 | 74% |
