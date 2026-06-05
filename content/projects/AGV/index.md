@@ -5,8 +5,9 @@ description: "A compact Automated Guided Vehicle optimised for spatial efficienc
 summary: "An efficient, small-footprint Automated Guided Vehicle featuring an optimised golden-ratio chassis layout, precise mechanical trapezoidal steering, and calibrated infrared optical tracking."
 tags: ["Mechatronics", "Automation", "Embedded Systems", "PCB Trace", "Hardware"]
 categories: ["Projects"]
-# If your theme uses featured images, point it to your poster picture file name here
-image: "poster_preview.png" 
+showAuthor: false
+featured: true
+thumbnail: "featured.jpg"
 ---
 
 ## Project Overview
