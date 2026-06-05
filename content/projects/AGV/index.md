@@ -12,12 +12,8 @@ thumbnail: "featured.jpg"
 
 ## Project Overview
 
-The **Sigmobile AGV** is a compact Automated Guided Vehicle built with an emphasis on spatial efficiency and precise physical tracking systems. Developed within a three-person engineering team, the core objective was minimizing effective dimensions to allow high-density fleet operation inside modern smart warehouse environments. 
+The **Sigmobile AGV** is a compact Automated Guided Vehicle built with an emphasis on spatial efficiency and precise physical tracking systems. Developed within a three-person engineering team, the core objective was minimizing effective dimensions to allow for fleet operation inside modern smart warehouse environments. 
 
-### The Team & Core Focus
-*   **Franciszek Fraszczyk:** Steering Mechanism Geometry & TCRT5000 Calibration
-*   **Dale Mc Loughlin:** General Mechanical Layout & Space Optimization
-*   **Mohammed Elawad:** Drive Powertrain Calculations
 
 ---
 
