@@ -32,7 +32,7 @@ Developed as part of a three person engineering design team, this project involv
 #### 1. Space-Optimised Multi-Level Chassis Layout
 
 <div style="text-align: justify;">
-To ensure efficient maneuvering and high stability during multi-vehicle interactions, the physical platform was constructed using proportional dimensional bounds. Starting from a fixed track width of <code>150mm</code>, the chassis length was derived by applying the golden ratio ($\phi \approx 1.618$) and rounding up to exactly <code>240mm</code>. Space optimisation was further maximized by isolating components across two distinct horizontal levels, adding sleek corner fillets to smooth the profile, and establishing a low ground clearance to anchor the center of gravity.
+To ensure efficient maneuvering and high stability during multi-vehicle interactions, the physical platform was constructed using proportional dimensional bounds. Starting from a fixed track width of <code>150mm</code>, the chassis length was derived by applying the golden ratio and rounding up to exactly <code>240mm</code>. Space optimisation was further maximized by isolating components across two distinct horizontal levels, adding sleek corner fillets to smooth the profile, and establishing a low ground clearance to anchor the center of gravity.
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
@@ -62,8 +62,6 @@ To guarantee smooth cornering without wheel scrubbing or tracking deviations, a 
 Autonomous guidance along warehouse test lines was managed through a calibrated <strong>TCRT5000 Infrared Reflection Sensor</strong> module. This section focused on calculating the passive pull-up resistor networks to create a crisp binary logic shift between highly reflective surfaces and non-reflective dark path borders:
 </div>
 
-* **Transmitter Circuit Matching ($R_1$):** Given a supply voltage of 9V and an internal diode forward voltage drop of 1.25V, the net voltage drop across $R_1$ equaled 7.75V. To supply the optimal emitter test current ($I_F = 25\text{ mA}$), Ohm's law yielded a required resistance of $310\ \Omega$. A standard $220\ \Omega$ component was physically integrated based on component box availability.
-* **Receiver Circuit Tuning ($R_2$):** Utilising an optical coupling factor ($K = 0.015$), the baseline phototransistor saturation current ($I_L$) was calculated to be $3.75 \times 10^{-4}\text{ A}$. Resolving the output load drop yielded an optimal collector pull-up resistor ($R_2$) of exactly $24\text{ k}\Omega$.
 * **Hardware Validation Benchmarks:** Physical validation with a multimeter verified the mathematical logic bounds perfectly:
   * *Matte Dark Surface (Low Reflection):* Phototransistor closes, output registers high near **7.8 V**.
   * *White Surface (High Reflection):* Full saturation pulls the logic level low cleanly down to **0.1 V**.
