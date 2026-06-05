@@ -7,6 +7,9 @@ description: "Year-by-year academic breakdown and performance metrics at Dublin 
 
 * **Overall Degree Weighted Average:** 85%
 * **Total Academic Credits Completed:** 300 ECTS
+* **First Class Honours**
+* **4.0 GPA**
+
 
 ---
 
