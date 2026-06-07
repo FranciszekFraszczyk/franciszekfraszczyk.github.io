@@ -16,4 +16,4 @@ I am a top ranking Mechatronics Engineering graduate (BEng & MEng) from Dublin C
 
 Whether collaborating in multidisciplinary teams, integrating complex mechanical and electrical systems, or optimising Edge AI models to automate live industrial plants, I design robust, operational solutions for safety-critical environments.
 
-[Explore My Work](#projects) · [View My CV](/cv.pdf) · [Get In Touch](#contact)
+[Explore My Work](projects) · [View My CV](/cv.pdf) · [Get In Touch](contact)
