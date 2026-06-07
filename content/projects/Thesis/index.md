@@ -51,4 +51,4 @@ To observe the real-time classification response speeds, and physical validation
 {{< youtube id="iodBoqk7rJA" >}}
 
 #### Expo Day Run
-{{< youtube id="YOUR_VIDEO_ID_HERE_2" >}}
+{{< youtube id="KajRNY2i3I4" >}}
