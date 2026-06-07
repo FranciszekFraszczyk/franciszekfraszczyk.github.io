@@ -7,7 +7,7 @@ showAuthor: false
 ---
 
 <div style="text-align: justify; margin-bottom: 30px;">
-  Whether you are looking to recruit for a technical role, discuss a research collaboration in physical systems, or simply want to chat, feel free to drop me a line. I am currently based in <strong>Kildare, Ireland</strong> and am open to local opportunities as well as regional relocation.
+Whether you are looking to recruit for a technical role, discuss a research collaboration, or simply want to chat, feel free to drop me a line. I am currently based in <strong>Kildare, Ireland</strong> and am open to local opportunities as well as regional relocation.
 </div>
 
 ---
