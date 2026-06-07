@@ -27,21 +27,21 @@ Developed as the core focus of my Master of Engineering (MEng) thesis at Dublin 
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="Expo_pic.jpg" alt="TinyML Classification Engine Structure" style="max-width: 100%; height: auto; border-radius: 4px;">
-  <p style="font-size: 0.9rem; font-style: italic; color: #666; margin-top: 8px;">Figure 3: Topology layout of the constrained artificial neural network deployed onto the physical AI node.</p>
+  <p style="font-size: 0.9rem; font-style: italic; color: #666; margin-top: 8px;">Figure 1: DCU Expo Day.</p>
 </div>
 
 <div style="text-align: center; margin: 30px 0;">
-  <a href="/uploads/2026_Franciszek_Fraszczyk_MEng_Thesis.pdf" target="_blank" style="background-color: #ef4444; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">
+  <a href="2026_Franciszek_Fraszczyk_MEng_Thesis.pdf" target="_blank" style="background-color: #ef4444; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">
     📄 Open Full MEng Thesis
   </a>
 </div>
 
 ### Platform System Demonstrations
 
-To observe the real-time classification response speeds, feature-space transitions, and physical validation runs under active fatigue conditions, view the system walkthrough sequences below:
+To observe the real-time classification response speeds, and physical validation runs under anomalous conditions, view the system demonstration below:
 
 #### Edge Inference & Fault Injection Testing
-{{< youtube id="YOUR_VIDEO_ID_HERE_1" >}}
+{{< youtube id="iodBoqk7rJA" >}}
 
-#### Analytical Calibration & Signal Processing Run
+#### Expo Day Run
 {{< youtube id="YOUR_VIDEO_ID_HERE_2" >}}
