@@ -1,5 +1,5 @@
 ---
-title: "Get In Touch"
+title: "Contact"
 description: "Let's collaborate. Reach out for professional opportunities in robotics development, embedded physical AI, or automation engineering."
 layout: "single"
 showDate: false
