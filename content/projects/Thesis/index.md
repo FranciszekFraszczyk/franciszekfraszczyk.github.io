@@ -30,11 +30,18 @@ Developed as the core focus of my Master of Engineering (MEng) thesis at Dublin 
   <p style="font-size: 0.9rem; font-style: italic; color: #666; margin-top: 8px;">Figure 1: DCU Expo Day.</p>
 </div>
 
+<div style="text-align: center; margin: 25px 0;">
+  <iframe src="Franciszek_Fraszczyk_MEng_Poster.pdf" width="100%" height="750px" style="border: 1px solid #333; border-radius: 6px;" allow="autoplay"></iframe>
+  <p style="font-size: 0.85rem; color: #888; margin-top: 10px; font-style: italic;">💡 Use the built-in toolbar controls above to zoom, scroll, or expand the poster layout to fullscreen.</p>
+</div>
+
 <div style="text-align: center; margin: 30px 0;">
   <a href="2026_Franciszek_Fraszczyk_MEng_Thesis.pdf" target="_blank" style="background-color: #ef4444; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">
     📄 Open Full MEng Thesis
   </a>
 </div>
+
+
 
 ### Platform System Demonstrations
 
