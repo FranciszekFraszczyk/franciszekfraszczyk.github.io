@@ -21,7 +21,12 @@ showAuthor: false
     <p style="font-size: 0.9rem; color: #888;">For networking, industry updates, and career history.</p>
     <a href="https://www.linkedin.com/in/franciszek-fraszczyk-18140635b/" target="_blank" style="font-weight: bold; text-decoration: none; color: #3b82f6;">Connect on LinkedIn →</a>
   </div>
-
+  
+<div style="border: 1px solid #333; padding: 20px; border-radius: 6px; background: rgba(255,255,255,0.02);">
+    <h4 style="margin-top: 0; color: #2164f3;">💼 Indeed Resume</h4>
+    <p style="font-size: 0.9rem; color: #888;">For networking, industry updates, and career history.</p>
+    <a href="https://profile.indeed.com/?hl=en_IE&co=IE&from=gnav-passport--passport-webapp" target="_blank" style="font-weight: bold; text-decoration: none; color: #3b82f6;">View Indeed Profile →</a>
+  </div>
 
 </div>
 
